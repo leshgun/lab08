@@ -1,0 +1,1307 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.12.90+deb13-arm64 - aarch64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/3.31.6/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/clang++ 
+      Build flags: -std=c++14
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/3.31.6/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-8tJ9Ni"
+      binary: "/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-8tJ9Ni"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-19"
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/leshgun/leshgun/workspace/projects/lab07/tools/polly/utilities/../find;/home/leshgun/leshgun/workspace/projects/lab07/tools/polly/utilities"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-8tJ9Ni'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9c3ea/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9c3ea.dir/build.make CMakeFiles/cmTC_9c3ea.dir/build
+        gmake[1]: Entering directory '/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-8tJ9Ni'
+        Building C object CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o
+        /usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Debian clang version 19.1.7 (3+b1)
+        Target: aarch64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-19/bin
+        Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14
+        Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-19/bin/clang" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-abi aapcs -debugger-tuning=gdb -fdebug-compilation-dir=/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-8tJ9Ni -v -fcoverage-compilation-dir=/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-8tJ9Ni -resource-dir /usr/lib/llvm-19/lib/clang/19 -dependency-file CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-19/lib/clang/19/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/14/../../../../aarch64-linux-gnu/include -internal-externc-isystem /usr/include/aarch64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -target-feature +outline-atomics -target-feature -fmv -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target aarch64-unknown-linux-gnu
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/14/../../../../aarch64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/llvm-19/lib/clang/19/include
+         /usr/local/include
+         /usr/include/aarch64-linux-gnu
+         /usr/include
+        End of search list.
+        Linking C executable cmTC_9c3ea
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c3ea.dir/link.txt --verbose=1
+        Debian clang version 19.1.7 (3+b1)
+        Target: aarch64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-19/bin
+        Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14
+        Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" -EL --hash-style=gnu --build-id --eh-frame-hdr -m aarch64linux -export-dynamic -pie -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_9c3ea /lib/aarch64-linux-gnu/Scrt1.o /lib/aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/14 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/lib -L/usr/lib -v CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/aarch64-linux-gnu/14/crtendS.o /lib/aarch64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Debian) 2.44
+        /usr/bin/clang  -v -Wl,-v -rdynamic CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o -o cmTC_9c3ea
+        gmake[1]: Leaving directory '/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-8tJ9Ni'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/llvm-19/lib/clang/19/include]
+          add: [/usr/local/include]
+          add: [/usr/include/aarch64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/llvm-19/lib/clang/19/include] ==> [/usr/lib/llvm-19/lib/clang/19/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/llvm-19/lib/clang/19/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-8tJ9Ni']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9c3ea/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_9c3ea.dir/build.make CMakeFiles/cmTC_9c3ea.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-8tJ9Ni']
+        ignore line: [Building C object CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Debian clang version 19.1.7 (3+b1)]
+        ignore line: [Target: aarch64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-19/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/lib/llvm-19/bin/clang" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-abi aapcs -debugger-tuning=gdb -fdebug-compilation-dir=/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-8tJ9Ni -v -fcoverage-compilation-dir=/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-8tJ9Ni -resource-dir /usr/lib/llvm-19/lib/clang/19 -dependency-file CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-19/lib/clang/19/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/14/../../../../aarch64-linux-gnu/include -internal-externc-isystem /usr/include/aarch64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -target-feature +outline-atomics -target-feature -fmv -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target aarch64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/14/../../../../aarch64-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/llvm-19/lib/clang/19/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/aarch64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_9c3ea]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c3ea.dir/link.txt --verbose=1]
+        ignore line: [Debian clang version 19.1.7 (3+b1)]
+        ignore line: [Target: aarch64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-19/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" -EL --hash-style=gnu --build-id --eh-frame-hdr -m aarch64linux -export-dynamic -pie -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_9c3ea /lib/aarch64-linux-gnu/Scrt1.o /lib/aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/14 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/lib -L/usr/lib -v CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/aarch64-linux-gnu/14/crtendS.o /lib/aarch64-linux-gnu/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_9c3ea] ==> ignore
+          arg [/lib/aarch64-linux-gnu/Scrt1.o] ==> obj [/lib/aarch64-linux-gnu/Scrt1.o]
+          arg [/lib/aarch64-linux-gnu/crti.o] ==> obj [/lib/aarch64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/14/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/14/crtbeginS.o]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/14] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/14]
+          arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+          arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_9c3ea.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/14/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/14/crtendS.o]
+          arg [/lib/aarch64-linux-gnu/crtn.o] ==> obj [/lib/aarch64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/14] ==> [/usr/lib/gcc/aarch64-linux-gnu/14]
+        collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/lib/aarch64-linux-gnu/Scrt1.o;/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/14/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/14/crtendS.o;/lib/aarch64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/14;/lib/aarch64-linux-gnu;/usr/lib/aarch64-linux-gnu;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Debian) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-a698KW"
+      binary: "/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-a698KW"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-19"
+      CMAKE_CXX_FLAGS: "-std=c++14"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_MODULE_PATH: "/home/leshgun/leshgun/workspace/projects/lab07/tools/polly/utilities/../find;/home/leshgun/leshgun/workspace/projects/lab07/tools/polly/utilities"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-a698KW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bf468/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bf468.dir/build.make CMakeFiles/cmTC_bf468.dir/build
+        gmake[1]: Entering directory '/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-a698KW'
+        Building CXX object CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -std=c++14  -std=c++14   -v -MD -MT CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Debian clang version 19.1.7 (3+b1)
+        Target: aarch64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-19/bin
+        Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14
+        Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-19/bin/clang" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-abi aapcs -debugger-tuning=gdb -fdebug-compilation-dir=/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-a698KW -v -fcoverage-compilation-dir=/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-a698KW -resource-dir /usr/lib/llvm-19/lib/clang/19 -dependency-file CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/c++/14 -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/aarch64-linux-gnu/c++/14 -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/c++/14/backward -internal-isystem /usr/lib/llvm-19/lib/clang/19/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/14/../../../../aarch64-linux-gnu/include -internal-externc-isystem /usr/include/aarch64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=c++14 -fdeprecated-macro -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -target-feature +outline-atomics -target-feature -fmv -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target aarch64-unknown-linux-gnu
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/14/../../../../aarch64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/c++/14
+         /usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/aarch64-linux-gnu/c++/14
+         /usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/c++/14/backward
+         /usr/lib/llvm-19/lib/clang/19/include
+         /usr/local/include
+         /usr/include/aarch64-linux-gnu
+         /usr/include
+        End of search list.
+        Linking CXX executable cmTC_bf468
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf468.dir/link.txt --verbose=1
+        Debian clang version 19.1.7 (3+b1)
+        Target: aarch64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-19/bin
+        Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14
+        Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" -EL --hash-style=gnu --build-id --eh-frame-hdr -m aarch64linux -export-dynamic -pie -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_bf468 /lib/aarch64-linux-gnu/Scrt1.o /lib/aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/14 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/lib -L/usr/lib -v CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/14/crtendS.o /lib/aarch64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Debian) 2.44
+        /usr/bin/clang++ -std=c++14   -v -Wl,-v -rdynamic CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_bf468
+        gmake[1]: Leaving directory '/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-a698KW'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/c++/14]
+          add: [/usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/aarch64-linux-gnu/c++/14]
+          add: [/usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/c++/14/backward]
+          add: [/usr/lib/llvm-19/lib/clang/19/include]
+          add: [/usr/local/include]
+          add: [/usr/include/aarch64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/c++/14] ==> [/usr/include/c++/14]
+        collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/aarch64-linux-gnu/c++/14] ==> [/usr/include/aarch64-linux-gnu/c++/14]
+        collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/c++/14/backward] ==> [/usr/include/c++/14/backward]
+        collapse include dir [/usr/lib/llvm-19/lib/clang/19/include] ==> [/usr/lib/llvm-19/lib/clang/19/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/14;/usr/include/aarch64-linux-gnu/c++/14;/usr/include/c++/14/backward;/usr/lib/llvm-19/lib/clang/19/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-a698KW']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bf468/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_bf468.dir/build.make CMakeFiles/cmTC_bf468.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-a698KW']
+        ignore line: [Building CXX object CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -std=c++14  -std=c++14   -v -MD -MT CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Debian clang version 19.1.7 (3+b1)]
+        ignore line: [Target: aarch64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-19/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/lib/llvm-19/bin/clang" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-abi aapcs -debugger-tuning=gdb -fdebug-compilation-dir=/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-a698KW -v -fcoverage-compilation-dir=/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeScratch/TryCompile-a698KW -resource-dir /usr/lib/llvm-19/lib/clang/19 -dependency-file CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/c++/14 -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/aarch64-linux-gnu/c++/14 -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/c++/14/backward -internal-isystem /usr/lib/llvm-19/lib/clang/19/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/14/../../../../aarch64-linux-gnu/include -internal-externc-isystem /usr/include/aarch64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=c++14 -fdeprecated-macro -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -target-feature +outline-atomics -target-feature -fmv -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target aarch64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/14/../../../../aarch64-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/c++/14]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/aarch64-linux-gnu/c++/14]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/14/../../../../include/c++/14/backward]
+        ignore line: [ /usr/lib/llvm-19/lib/clang/19/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/aarch64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_bf468]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf468.dir/link.txt --verbose=1]
+        ignore line: [Debian clang version 19.1.7 (3+b1)]
+        ignore line: [Target: aarch64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-19/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/14]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" -EL --hash-style=gnu --build-id --eh-frame-hdr -m aarch64linux -export-dynamic -pie -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_bf468 /lib/aarch64-linux-gnu/Scrt1.o /lib/aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/14 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/lib -L/usr/lib -v CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/14/crtendS.o /lib/aarch64-linux-gnu/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_bf468] ==> ignore
+          arg [/lib/aarch64-linux-gnu/Scrt1.o] ==> obj [/lib/aarch64-linux-gnu/Scrt1.o]
+          arg [/lib/aarch64-linux-gnu/crti.o] ==> obj [/lib/aarch64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/14/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/14/crtbeginS.o]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/14] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/14]
+          arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+          arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_bf468.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/14/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/14/crtendS.o]
+          arg [/lib/aarch64-linux-gnu/crtn.o] ==> obj [/lib/aarch64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/14] ==> [/usr/lib/gcc/aarch64-linux-gnu/14]
+        collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib/aarch64-linux-gnu/Scrt1.o;/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/14/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/14/crtendS.o;/lib/aarch64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/14;/lib/aarch64-linux-gnu;/usr/lib/aarch64-linux-gnu;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Debian) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:76 (try_compile)"
+    directories:
+      source: "/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/_test/CMakeFiles/CMakeTmp"
+      binary: "/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/_test/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-19"
+      CMAKE_CXX_FLAGS: "-std=c++14"
+      CMAKE_MODULE_PATH: "/home/leshgun/leshgun/workspace/projects/lab07/tools/polly/utilities/../find;/home/leshgun/leshgun/workspace/projects/lab07/tools/polly/utilities;/home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules"
+    buildResult:
+      variable: "try_compile_result"
+      cached: true
+      stdout: |
+        Change Dir: '/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/_test/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9a7c1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9a7c1.dir/build.make CMakeFiles/cmTC_9a7c1.dir/build
+        gmake[1]: Entering directory '/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/_test/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_9a7c1.dir/ShowPredefined.cpp.o
+        /usr/bin/clang++   -std=c++14  -std=c++14 -MD -MT CMakeFiles/cmTC_9a7c1.dir/ShowPredefined.cpp.o -MF CMakeFiles/cmTC_9a7c1.dir/ShowPredefined.cpp.o.d -o CMakeFiles/cmTC_9a7c1.dir/ShowPredefined.cpp.o -c /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:111:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define _GLIBCXX_USE_CXX11_ABI 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          111 | # pragma message(HUNTER_INFO(_GLIBCXX_USE_CXX11_ABI))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:115:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define _GNU_SOURCE 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          115 | # pragma message(HUNTER_INFO(_GNU_SOURCE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:151:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define _LP64 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          151 | # pragma message(HUNTER_INFO(_LP64))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:319:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define _POSIX_SOURCE 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          319 | # pragma message(HUNTER_INFO(_POSIX_SOURCE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:347:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define _STDC_PREDEF_H 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          347 | # pragma message(HUNTER_INFO(_STDC_PREDEF_H))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:403:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define _XOPEN_SOURCE 700__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          403 | # pragma message(HUNTER_INFO(_XOPEN_SOURCE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:419:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __AARCH64EL__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          419 | # pragma message(HUNTER_INFO(__AARCH64EL__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:487:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_64BIT_STATE 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          487 | # pragma message(HUNTER_INFO(__ARM_64BIT_STATE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:491:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_ACLE 200__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          491 | # pragma message(HUNTER_INFO(__ARM_ACLE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:495:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_ALIGN_MAX_STACK_PWR 4__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          495 | # pragma message(HUNTER_INFO(__ARM_ALIGN_MAX_STACK_PWR))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:499:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_ARCH 8__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          499 | # pragma message(HUNTER_INFO(__ARM_ARCH))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:515:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_ARCH_ISA_A64 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          515 | # pragma message(HUNTER_INFO(__ARM_ARCH_ISA_A64))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:527:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_ARCH_PROFILE 'A'__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          527 | # pragma message(HUNTER_INFO(__ARM_ARCH_PROFILE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:539:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_FEATURE_CLZ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          539 | # pragma message(HUNTER_INFO(__ARM_FEATURE_CLZ))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:547:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_FEATURE_DIV 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          547 | # pragma message(HUNTER_INFO(__ARM_FEATURE_DIV))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:555:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_FEATURE_FMA 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          555 | # pragma message(HUNTER_INFO(__ARM_FEATURE_FMA))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:559:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_FEATURE_LDREX 0xF__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          559 | # pragma message(HUNTER_INFO(__ARM_FEATURE_LDREX))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:575:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_FEATURE_UNALIGNED 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          575 | # pragma message(HUNTER_INFO(__ARM_FEATURE_UNALIGNED))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:579:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_FP 0xE__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          579 | # pragma message(HUNTER_INFO(__ARM_FP))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:583:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_FP16_FORMAT_IEEE 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          583 | # pragma message(HUNTER_INFO(__ARM_FP16_FORMAT_IEEE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:587:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_NEON 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          587 | # pragma message(HUNTER_INFO(__ARM_NEON))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:591:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_NEON_FP 0xE__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          591 | # pragma message(HUNTER_INFO(__ARM_NEON_FP))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:599:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_PCS_AAPCS64 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          599 | # pragma message(HUNTER_INFO(__ARM_PCS_AAPCS64))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:607:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_SIZEOF_MINIMAL_ENUM 4__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          607 | # pragma message(HUNTER_INFO(__ARM_SIZEOF_MINIMAL_ENUM))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:611:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ARM_SIZEOF_WCHAR_T 4__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          611 | # pragma message(HUNTER_INFO(__ARM_SIZEOF_WCHAR_T))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:623:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ATOMIC_ACQUIRE 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          623 | # pragma message(HUNTER_INFO(__ATOMIC_ACQUIRE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:627:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ATOMIC_ACQ_REL 4__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          627 | # pragma message(HUNTER_INFO(__ATOMIC_ACQ_REL))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:631:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ATOMIC_CONSUME 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          631 | # pragma message(HUNTER_INFO(__ATOMIC_CONSUME))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:643:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ATOMIC_RELAXED 0__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          643 | # pragma message(HUNTER_INFO(__ATOMIC_RELAXED))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:647:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ATOMIC_RELEASE 3__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          647 | # pragma message(HUNTER_INFO(__ATOMIC_RELEASE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:651:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ATOMIC_SEQ_CST 5__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          651 | # pragma message(HUNTER_INFO(__ATOMIC_SEQ_CST))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:675:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __BIGGEST_ALIGNMENT__ 16__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          675 | # pragma message(HUNTER_INFO(__BIGGEST_ALIGNMENT__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:699:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __BYTE_ORDER__ 1234__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          699 | # pragma message(HUNTER_INFO(__BYTE_ORDER__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:703:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __CHAR16_TYPE__ unsigned short__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          703 | # pragma message(HUNTER_INFO(__CHAR16_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:707:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __CHAR32_TYPE__ unsigned int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          707 | # pragma message(HUNTER_INFO(__CHAR32_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:711:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __CHAR_BIT__ 8__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          711 | # pragma message(HUNTER_INFO(__CHAR_BIT__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:715:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __CHAR_UNSIGNED__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          715 | # pragma message(HUNTER_INFO(__CHAR_UNSIGNED__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:743:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __CONSTANT_CFSTRINGS__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          743 | # pragma message(HUNTER_INFO(__CONSTANT_CFSTRINGS__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:747:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __COUNTER__ 0__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          747 | # pragma message(HUNTER_INFO(__COUNTER__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:771:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DBL_DECIMAL_DIG__ 17__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          771 | # pragma message(HUNTER_INFO(__DBL_DECIMAL_DIG__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:775:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DBL_DENORM_MIN__ 4.9406564584124654e-324__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          775 | # pragma message(HUNTER_INFO(__DBL_DENORM_MIN__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:779:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DBL_DIG__ 15__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          779 | # pragma message(HUNTER_INFO(__DBL_DIG__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:783:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DBL_EPSILON__ 2.2204460492503131e-16__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          783 | # pragma message(HUNTER_INFO(__DBL_EPSILON__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:787:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DBL_HAS_DENORM__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          787 | # pragma message(HUNTER_INFO(__DBL_HAS_DENORM__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:791:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DBL_HAS_INFINITY__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          791 | # pragma message(HUNTER_INFO(__DBL_HAS_INFINITY__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:795:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DBL_HAS_QUIET_NAN__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          795 | # pragma message(HUNTER_INFO(__DBL_HAS_QUIET_NAN__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:799:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DBL_MANT_DIG__ 53__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          799 | # pragma message(HUNTER_INFO(__DBL_MANT_DIG__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:803:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DBL_MAX_10_EXP__ 308__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          803 | # pragma message(HUNTER_INFO(__DBL_MAX_10_EXP__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:807:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DBL_MAX_EXP__ 1024__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          807 | # pragma message(HUNTER_INFO(__DBL_MAX_EXP__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:811:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DBL_MAX__ 1.7976931348623157e+308__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          811 | # pragma message(HUNTER_INFO(__DBL_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:815:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DBL_MIN_10_EXP__ (-307)__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          815 | # pragma message(HUNTER_INFO(__DBL_MIN_10_EXP__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:819:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DBL_MIN_EXP__ (-1021)__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          819 | # pragma message(HUNTER_INFO(__DBL_MIN_EXP__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:823:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DBL_MIN__ 2.2250738585072014e-308__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          823 | # pragma message(HUNTER_INFO(__DBL_MIN__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:935:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DECIMAL_DIG__ 36__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          935 | # pragma message(HUNTER_INFO(__DECIMAL_DIG__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:943:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __DEPRECATED 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          943 | # pragma message(HUNTER_INFO(__DEPRECATED))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:975:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ELF__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          975 | # pragma message(HUNTER_INFO(__ELF__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:987:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __EXCEPTIONS 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          987 | # pragma message(HUNTER_INFO(__EXCEPTIONS))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:991:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FINITE_MATH_ONLY__ 0__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          991 | # pragma message(HUNTER_INFO(__FINITE_MATH_ONLY__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:999:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_DECIMAL_DIG__ 9__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+          999 | # pragma message(HUNTER_INFO(__FLT_DECIMAL_DIG__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1003:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_DENORM_MIN__ 1.40129846e-45F__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1003 | # pragma message(HUNTER_INFO(__FLT_DENORM_MIN__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1007:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_DIG__ 6__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1007 | # pragma message(HUNTER_INFO(__FLT_DIG__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1011:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_EPSILON__ 1.19209290e-7F__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1011 | # pragma message(HUNTER_INFO(__FLT_EPSILON__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1015:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_EVAL_METHOD__ 0__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1015 | # pragma message(HUNTER_INFO(__FLT_EVAL_METHOD__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1019:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_HAS_DENORM__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1019 | # pragma message(HUNTER_INFO(__FLT_HAS_DENORM__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1023:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_HAS_INFINITY__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1023 | # pragma message(HUNTER_INFO(__FLT_HAS_INFINITY__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1027:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_HAS_QUIET_NAN__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1027 | # pragma message(HUNTER_INFO(__FLT_HAS_QUIET_NAN__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1031:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_MANT_DIG__ 24__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1031 | # pragma message(HUNTER_INFO(__FLT_MANT_DIG__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1035:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_MAX_10_EXP__ 38__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1035 | # pragma message(HUNTER_INFO(__FLT_MAX_10_EXP__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1039:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_MAX_EXP__ 128__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1039 | # pragma message(HUNTER_INFO(__FLT_MAX_EXP__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1043:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_MAX__ 3.40282347e+38F__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1043 | # pragma message(HUNTER_INFO(__FLT_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1047:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_MIN_10_EXP__ (-37)__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1047 | # pragma message(HUNTER_INFO(__FLT_MIN_10_EXP__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1051:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_MIN_EXP__ (-125)__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1051 | # pragma message(HUNTER_INFO(__FLT_MIN_EXP__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1055:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_MIN__ 1.17549435e-38F__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1055 | # pragma message(HUNTER_INFO(__FLT_MIN__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1059:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FLT_RADIX__ 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1059 | # pragma message(HUNTER_INFO(__FLT_RADIX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1071:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FP_FAST_FMA 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1071 | # pragma message(HUNTER_INFO(__FP_FAST_FMA))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1075:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __FP_FAST_FMAF 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1075 | # pragma message(HUNTER_INFO(__FP_FAST_FMAF))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1127:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_ASM_FLAG_OUTPUTS__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1127 | # pragma message(HUNTER_INFO(__GCC_ASM_FLAG_OUTPUTS__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1131:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_ATOMIC_BOOL_LOCK_FREE 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1131 | # pragma message(HUNTER_INFO(__GCC_ATOMIC_BOOL_LOCK_FREE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1135:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1135 | # pragma message(HUNTER_INFO(__GCC_ATOMIC_CHAR16_T_LOCK_FREE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1139:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1139 | # pragma message(HUNTER_INFO(__GCC_ATOMIC_CHAR32_T_LOCK_FREE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1143:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_ATOMIC_CHAR_LOCK_FREE 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1143 | # pragma message(HUNTER_INFO(__GCC_ATOMIC_CHAR_LOCK_FREE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1147:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_ATOMIC_INT_LOCK_FREE 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1147 | # pragma message(HUNTER_INFO(__GCC_ATOMIC_INT_LOCK_FREE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1151:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_ATOMIC_LLONG_LOCK_FREE 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1151 | # pragma message(HUNTER_INFO(__GCC_ATOMIC_LLONG_LOCK_FREE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1155:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_ATOMIC_LONG_LOCK_FREE 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1155 | # pragma message(HUNTER_INFO(__GCC_ATOMIC_LONG_LOCK_FREE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1159:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_ATOMIC_POINTER_LOCK_FREE 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1159 | # pragma message(HUNTER_INFO(__GCC_ATOMIC_POINTER_LOCK_FREE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1163:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_ATOMIC_SHORT_LOCK_FREE 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1163 | # pragma message(HUNTER_INFO(__GCC_ATOMIC_SHORT_LOCK_FREE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1167:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1167 | # pragma message(HUNTER_INFO(__GCC_ATOMIC_TEST_AND_SET_TRUEVAL))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1171:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1171 | # pragma message(HUNTER_INFO(__GCC_ATOMIC_WCHAR_T_LOCK_FREE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1175:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_HAVE_DWARF2_CFI_ASM 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1175 | # pragma message(HUNTER_INFO(__GCC_HAVE_DWARF2_CFI_ASM))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1179:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1179 | # pragma message(HUNTER_INFO(__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1183:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_16 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1183 | # pragma message(HUNTER_INFO(__GCC_HAVE_SYNC_COMPARE_AND_SWAP_16))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1187:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1187 | # pragma message(HUNTER_INFO(__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1191:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1191 | # pragma message(HUNTER_INFO(__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1195:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_8 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1195 | # pragma message(HUNTER_INFO(__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1223:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GLIBCXX__ 20250315__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1223 | # pragma message(HUNTER_INFO(__GLIBCXX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1227:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GLIBC__ 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1227 | # pragma message(HUNTER_INFO(__GLIBC__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1231:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GNUC_GNU_INLINE__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1231 | # pragma message(HUNTER_INFO(__GNUC_GNU_INLINE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1243:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GNUC_MINOR__ 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1243 | # pragma message(HUNTER_INFO(__GNUC_MINOR__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1247:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GNUC_PATCHLEVEL__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1247 | # pragma message(HUNTER_INFO(__GNUC_PATCHLEVEL__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1255:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GNUC__ 4__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1255 | # pragma message(HUNTER_INFO(__GNUC__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1259:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GNUG__ 4__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1259 | # pragma message(HUNTER_INFO(__GNUG__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1263:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GNU_LIBRARY__ 6__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1263 | # pragma message(HUNTER_INFO(__GNU_LIBRARY__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1267:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GXX_ABI_VERSION 1002__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1267 | # pragma message(HUNTER_INFO(__GXX_ABI_VERSION))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1271:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GXX_EXPERIMENTAL_CXX0X__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1271 | # pragma message(HUNTER_INFO(__GXX_EXPERIMENTAL_CXX0X__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1275:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GXX_RTTI 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1275 | # pragma message(HUNTER_INFO(__GXX_RTTI))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1279:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GXX_TYPEINFO_EQUALITY_INLINE 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1279 | # pragma message(HUNTER_INFO(__GXX_TYPEINFO_EQUALITY_INLINE))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1283:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __GXX_WEAK__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1283 | # pragma message(HUNTER_INFO(__GXX_WEAK__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1355:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT16_MAX__ 32767__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1355 | # pragma message(HUNTER_INFO(__INT16_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1359:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT16_TYPE__ short__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1359 | # pragma message(HUNTER_INFO(__INT16_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1367:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT32_MAX__ 2147483647__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1367 | # pragma message(HUNTER_INFO(__INT32_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1371:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT32_TYPE__ int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1371 | # pragma message(HUNTER_INFO(__INT32_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1379:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT64_C_SUFFIX__ L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1379 | # pragma message(HUNTER_INFO(__INT64_C_SUFFIX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1383:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT64_MAX__ 9223372036854775807L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1383 | # pragma message(HUNTER_INFO(__INT64_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1387:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT64_TYPE__ long int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1387 | # pragma message(HUNTER_INFO(__INT64_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1395:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT8_MAX__ 127__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1395 | # pragma message(HUNTER_INFO(__INT8_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1399:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT8_TYPE__ signed char__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1399 | # pragma message(HUNTER_INFO(__INT8_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1415:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INTMAX_MAX__ 9223372036854775807L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1415 | # pragma message(HUNTER_INFO(__INTMAX_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1419:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INTMAX_TYPE__ long int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1419 | # pragma message(HUNTER_INFO(__INTMAX_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1423:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INTMAX_WIDTH__ 64__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1423 | # pragma message(HUNTER_INFO(__INTMAX_WIDTH__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1427:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INTPTR_MAX__ 9223372036854775807L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1427 | # pragma message(HUNTER_INFO(__INTPTR_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1431:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INTPTR_TYPE__ long int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1431 | # pragma message(HUNTER_INFO(__INTPTR_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1435:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INTPTR_WIDTH__ 64__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1435 | # pragma message(HUNTER_INFO(__INTPTR_WIDTH__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1439:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_FAST16_MAX__ 32767__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1439 | # pragma message(HUNTER_INFO(__INT_FAST16_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1443:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_FAST16_TYPE__ short__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1443 | # pragma message(HUNTER_INFO(__INT_FAST16_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1447:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_FAST32_MAX__ 2147483647__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1447 | # pragma message(HUNTER_INFO(__INT_FAST32_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1451:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_FAST32_TYPE__ int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1451 | # pragma message(HUNTER_INFO(__INT_FAST32_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1455:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_FAST64_MAX__ 9223372036854775807L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1455 | # pragma message(HUNTER_INFO(__INT_FAST64_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1459:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_FAST64_TYPE__ long int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1459 | # pragma message(HUNTER_INFO(__INT_FAST64_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1463:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_FAST8_MAX__ 127__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1463 | # pragma message(HUNTER_INFO(__INT_FAST8_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1467:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_FAST8_TYPE__ signed char__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1467 | # pragma message(HUNTER_INFO(__INT_FAST8_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1471:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_LEAST16_MAX__ 32767__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1471 | # pragma message(HUNTER_INFO(__INT_LEAST16_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1475:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_LEAST16_TYPE__ short__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1475 | # pragma message(HUNTER_INFO(__INT_LEAST16_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1479:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_LEAST32_MAX__ 2147483647__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1479 | # pragma message(HUNTER_INFO(__INT_LEAST32_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1483:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_LEAST32_TYPE__ int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1483 | # pragma message(HUNTER_INFO(__INT_LEAST32_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1487:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_LEAST64_MAX__ 9223372036854775807L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1487 | # pragma message(HUNTER_INFO(__INT_LEAST64_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1491:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_LEAST64_TYPE__ long int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1491 | # pragma message(HUNTER_INFO(__INT_LEAST64_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1495:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_LEAST8_MAX__ 127__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1495 | # pragma message(HUNTER_INFO(__INT_LEAST8_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1499:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_LEAST8_TYPE__ signed char__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1499 | # pragma message(HUNTER_INFO(__INT_LEAST8_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1503:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __INT_MAX__ 2147483647__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1503 | # pragma message(HUNTER_INFO(__INT_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1531:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LDBL_DENORM_MIN__ 6.47517511943802511092443895822764655e-4966L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1531 | # pragma message(HUNTER_INFO(__LDBL_DENORM_MIN__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1535:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LDBL_DIG__ 33__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1535 | # pragma message(HUNTER_INFO(__LDBL_DIG__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1539:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LDBL_EPSILON__ 1.92592994438723585305597794258492732e-34L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1539 | # pragma message(HUNTER_INFO(__LDBL_EPSILON__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1543:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LDBL_HAS_DENORM__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1543 | # pragma message(HUNTER_INFO(__LDBL_HAS_DENORM__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1547:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LDBL_HAS_INFINITY__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1547 | # pragma message(HUNTER_INFO(__LDBL_HAS_INFINITY__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1551:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LDBL_HAS_QUIET_NAN__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1551 | # pragma message(HUNTER_INFO(__LDBL_HAS_QUIET_NAN__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1555:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LDBL_MANT_DIG__ 113__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1555 | # pragma message(HUNTER_INFO(__LDBL_MANT_DIG__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1559:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LDBL_MAX_10_EXP__ 4932__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1559 | # pragma message(HUNTER_INFO(__LDBL_MAX_10_EXP__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1563:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LDBL_MAX_EXP__ 16384__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1563 | # pragma message(HUNTER_INFO(__LDBL_MAX_EXP__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1567:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LDBL_MAX__ 1.18973149535723176508575932662800702e+4932L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1567 | # pragma message(HUNTER_INFO(__LDBL_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1571:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LDBL_MIN_10_EXP__ (-4931)__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1571 | # pragma message(HUNTER_INFO(__LDBL_MIN_10_EXP__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1575:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LDBL_MIN_EXP__ (-16381)__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1575 | # pragma message(HUNTER_INFO(__LDBL_MIN_EXP__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1579:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LDBL_MIN__ 3.36210314311209350626267781732175260e-4932L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1579 | # pragma message(HUNTER_INFO(__LDBL_MIN__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1615:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LITTLE_ENDIAN__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1615 | # pragma message(HUNTER_INFO(__LITTLE_ENDIAN__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1659:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LONG_LONG_MAX__ 9223372036854775807LL__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1659 | # pragma message(HUNTER_INFO(__LONG_LONG_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1663:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LONG_MAX__ 9223372036854775807L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1663 | # pragma message(HUNTER_INFO(__LONG_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1667:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __LP64__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1667 | # pragma message(HUNTER_INFO(__LP64__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1787:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ORDER_BIG_ENDIAN__ 4321__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1787 | # pragma message(HUNTER_INFO(__ORDER_BIG_ENDIAN__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1791:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ORDER_LITTLE_ENDIAN__ 1234__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1791 | # pragma message(HUNTER_INFO(__ORDER_LITTLE_ENDIAN__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1795:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __ORDER_PDP_ENDIAN__ 3412__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1795 | # pragma message(HUNTER_INFO(__ORDER_PDP_ENDIAN__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1839:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __PIC__ 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1839 | # pragma message(HUNTER_INFO(__PIC__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1843:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __PIE__ 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1843 | # pragma message(HUNTER_INFO(__PIE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1847:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __POINTER_WIDTH__ 64__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1847 | # pragma message(HUNTER_INFO(__POINTER_WIDTH__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1863:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __PRAGMA_REDEFINE_EXTNAME 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1863 | # pragma message(HUNTER_INFO(__PRAGMA_REDEFINE_EXTNAME))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1867:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __PTRDIFF_MAX__ 9223372036854775807L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1867 | # pragma message(HUNTER_INFO(__PTRDIFF_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1871:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __PTRDIFF_TYPE__ long int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1871 | # pragma message(HUNTER_INFO(__PTRDIFF_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1875:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __PTRDIFF_WIDTH__ 64__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1875 | # pragma message(HUNTER_INFO(__PTRDIFF_WIDTH__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1931:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SCHAR_MAX__ 127__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1931 | # pragma message(HUNTER_INFO(__SCHAR_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1983:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SHRT_MAX__ 32767__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1983 | # pragma message(HUNTER_INFO(__SHRT_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1987:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIG_ATOMIC_MAX__ 2147483647__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1987 | # pragma message(HUNTER_INFO(__SIG_ATOMIC_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:1999:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIG_ATOMIC_WIDTH__ 32__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         1999 | # pragma message(HUNTER_INFO(__SIG_ATOMIC_WIDTH__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2003:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZEOF_DOUBLE__ 8__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2003 | # pragma message(HUNTER_INFO(__SIZEOF_DOUBLE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2015:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZEOF_FLOAT__ 4__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2015 | # pragma message(HUNTER_INFO(__SIZEOF_FLOAT__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2019:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZEOF_INT128__ 16__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2019 | # pragma message(HUNTER_INFO(__SIZEOF_INT128__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2023:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZEOF_INT__ 4__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2023 | # pragma message(HUNTER_INFO(__SIZEOF_INT__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2027:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZEOF_LONG_DOUBLE__ 16__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2027 | # pragma message(HUNTER_INFO(__SIZEOF_LONG_DOUBLE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2031:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZEOF_LONG_LONG__ 8__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2031 | # pragma message(HUNTER_INFO(__SIZEOF_LONG_LONG__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2035:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZEOF_LONG__ 8__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2035 | # pragma message(HUNTER_INFO(__SIZEOF_LONG__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2039:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZEOF_POINTER__ 8__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2039 | # pragma message(HUNTER_INFO(__SIZEOF_POINTER__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2043:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZEOF_PTRDIFF_T__ 8__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2043 | # pragma message(HUNTER_INFO(__SIZEOF_PTRDIFF_T__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2047:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZEOF_SHORT__ 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2047 | # pragma message(HUNTER_INFO(__SIZEOF_SHORT__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2051:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZEOF_SIZE_T__ 8__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2051 | # pragma message(HUNTER_INFO(__SIZEOF_SIZE_T__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2055:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZEOF_WCHAR_T__ 4__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2055 | # pragma message(HUNTER_INFO(__SIZEOF_WCHAR_T__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2059:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZEOF_WINT_T__ 4__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2059 | # pragma message(HUNTER_INFO(__SIZEOF_WINT_T__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2063:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZE_MAX__ 18446744073709551615UL__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2063 | # pragma message(HUNTER_INFO(__SIZE_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2067:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZE_TYPE__ long unsigned int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2067 | # pragma message(HUNTER_INFO(__SIZE_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2071:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __SIZE_WIDTH__ 64__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2071 | # pragma message(HUNTER_INFO(__SIZE_WIDTH__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2127:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __STDCPP_DEFAULT_NEW_ALIGNMENT__ 16UL__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2127 | # pragma message(HUNTER_INFO(__STDCPP_DEFAULT_NEW_ALIGNMENT__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2135:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __STDCPP_THREADS__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2135 | # pragma message(HUNTER_INFO(__STDCPP_THREADS__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2139:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __STDC_HOSTED__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2139 | # pragma message(HUNTER_INFO(__STDC_HOSTED__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2143:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __STDC_IEC_559_COMPLEX__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2143 | # pragma message(HUNTER_INFO(__STDC_IEC_559_COMPLEX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2147:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __STDC_IEC_559__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2147 | # pragma message(HUNTER_INFO(__STDC_IEC_559__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2151:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __STDC_ISO_10646__ 201706L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2151 | # pragma message(HUNTER_INFO(__STDC_ISO_10646__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2163:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __STDC_UTF_16__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2163 | # pragma message(HUNTER_INFO(__STDC_UTF_16__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2167:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __STDC_UTF_32__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2167 | # pragma message(HUNTER_INFO(__STDC_UTF_32__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2175:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __STDC__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2175 | # pragma message(HUNTER_INFO(__STDC__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2351:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT16_MAX__ 65535__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2351 | # pragma message(HUNTER_INFO(__UINT16_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2355:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT16_TYPE__ unsigned short__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2355 | # pragma message(HUNTER_INFO(__UINT16_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2363:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT32_MAX__ 4294967295U__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2363 | # pragma message(HUNTER_INFO(__UINT32_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2367:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT32_TYPE__ unsigned int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2367 | # pragma message(HUNTER_INFO(__UINT32_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2375:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT64_MAX__ 18446744073709551615UL__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2375 | # pragma message(HUNTER_INFO(__UINT64_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2379:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT64_TYPE__ long unsigned int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2379 | # pragma message(HUNTER_INFO(__UINT64_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2387:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT8_MAX__ 255__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2387 | # pragma message(HUNTER_INFO(__UINT8_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2391:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT8_TYPE__ unsigned char__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2391 | # pragma message(HUNTER_INFO(__UINT8_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2399:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINTMAX_MAX__ 18446744073709551615UL__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2399 | # pragma message(HUNTER_INFO(__UINTMAX_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2403:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINTMAX_TYPE__ long unsigned int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2403 | # pragma message(HUNTER_INFO(__UINTMAX_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2407:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINTPTR_MAX__ 18446744073709551615UL__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2407 | # pragma message(HUNTER_INFO(__UINTPTR_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2411:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINTPTR_TYPE__ long unsigned int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2411 | # pragma message(HUNTER_INFO(__UINTPTR_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2415:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_FAST16_MAX__ 65535__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2415 | # pragma message(HUNTER_INFO(__UINT_FAST16_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2419:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_FAST16_TYPE__ unsigned short__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2419 | # pragma message(HUNTER_INFO(__UINT_FAST16_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2423:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_FAST32_MAX__ 4294967295U__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2423 | # pragma message(HUNTER_INFO(__UINT_FAST32_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2427:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_FAST32_TYPE__ unsigned int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2427 | # pragma message(HUNTER_INFO(__UINT_FAST32_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2431:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_FAST64_MAX__ 18446744073709551615UL__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2431 | # pragma message(HUNTER_INFO(__UINT_FAST64_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2435:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_FAST64_TYPE__ long unsigned int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2435 | # pragma message(HUNTER_INFO(__UINT_FAST64_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2439:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_FAST8_MAX__ 255__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2439 | # pragma message(HUNTER_INFO(__UINT_FAST8_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2443:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_FAST8_TYPE__ unsigned char__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2443 | # pragma message(HUNTER_INFO(__UINT_FAST8_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2447:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_LEAST16_MAX__ 65535__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2447 | # pragma message(HUNTER_INFO(__UINT_LEAST16_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2451:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_LEAST16_TYPE__ unsigned short__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2451 | # pragma message(HUNTER_INFO(__UINT_LEAST16_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2455:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_LEAST32_MAX__ 4294967295U__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2455 | # pragma message(HUNTER_INFO(__UINT_LEAST32_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2459:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_LEAST32_TYPE__ unsigned int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2459 | # pragma message(HUNTER_INFO(__UINT_LEAST32_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2463:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_LEAST64_MAX__ 18446744073709551615UL__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2463 | # pragma message(HUNTER_INFO(__UINT_LEAST64_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2467:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_LEAST64_TYPE__ long unsigned int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2467 | # pragma message(HUNTER_INFO(__UINT_LEAST64_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2471:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_LEAST8_MAX__ 255__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2471 | # pragma message(HUNTER_INFO(__UINT_LEAST8_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2475:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __UINT_LEAST8_TYPE__ unsigned char__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2475 | # pragma message(HUNTER_INFO(__UINT_LEAST8_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2595:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __USER_LABEL_PREFIX__ __HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2595 | # pragma message(HUNTER_INFO(__USER_LABEL_PREFIX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2655:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __VERSION__ "Debian Clang 19.1.7 (3+b1)"__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2655 | # pragma message(HUNTER_INFO(__VERSION__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2679:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __WCHAR_MAX__ 4294967295U__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2679 | # pragma message(HUNTER_INFO(__WCHAR_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2687:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __WCHAR_TYPE__ unsigned int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2687 | # pragma message(HUNTER_INFO(__WCHAR_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2691:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __WCHAR_UNSIGNED__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2691 | # pragma message(HUNTER_INFO(__WCHAR_UNSIGNED__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2695:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __WCHAR_WIDTH__ 32__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2695 | # pragma message(HUNTER_INFO(__WCHAR_WIDTH__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2707:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __WINT_MAX__ 4294967295U__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2707 | # pragma message(HUNTER_INFO(__WINT_MAX__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2715:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __WINT_TYPE__ unsigned int__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2715 | # pragma message(HUNTER_INFO(__WINT_TYPE__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2719:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __WINT_WIDTH__ 32__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2719 | # pragma message(HUNTER_INFO(__WINT_WIDTH__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2727:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __aarch64__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2727 | # pragma message(HUNTER_INFO(__aarch64__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2795:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __clang__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2795 | # pragma message(HUNTER_INFO(__clang__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2799:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __clang_major__ 19__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2799 | # pragma message(HUNTER_INFO(__clang_major__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2803:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __clang_minor__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2803 | # pragma message(HUNTER_INFO(__clang_minor__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2807:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __clang_patchlevel__ 7__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2807 | # pragma message(HUNTER_INFO(__clang_patchlevel__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2811:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __clang_version__ "19.1.7 (3+b1)"__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2811 | # pragma message(HUNTER_INFO(__clang_version__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2851:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cplusplus 201402L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2851 | # pragma message(HUNTER_INFO(__cplusplus))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2863:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_aggregate_nsdmi 201304L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2863 | # pragma message(HUNTER_INFO(__cpp_aggregate_nsdmi))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2867:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_alias_templates 200704L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2867 | # pragma message(HUNTER_INFO(__cpp_alias_templates))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2871:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_attributes 200809L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2871 | # pragma message(HUNTER_INFO(__cpp_attributes))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2875:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_binary_literals 201304L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2875 | # pragma message(HUNTER_INFO(__cpp_binary_literals))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2883:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_constexpr 201304L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2883 | # pragma message(HUNTER_INFO(__cpp_constexpr))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2887:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_decltype 200707L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2887 | # pragma message(HUNTER_INFO(__cpp_decltype))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2891:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_decltype_auto 201304L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2891 | # pragma message(HUNTER_INFO(__cpp_decltype_auto))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2895:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_delegating_constructors 200604L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2895 | # pragma message(HUNTER_INFO(__cpp_delegating_constructors))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2899:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_digit_separators 201309L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2899 | # pragma message(HUNTER_INFO(__cpp_digit_separators))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2903:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_exceptions 199711L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2903 | # pragma message(HUNTER_INFO(__cpp_exceptions))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2907:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_generic_lambdas 201304L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2907 | # pragma message(HUNTER_INFO(__cpp_generic_lambdas))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2915:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_inheriting_constructors 201511L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2915 | # pragma message(HUNTER_INFO(__cpp_inheriting_constructors))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2919:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_init_captures 201304L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2919 | # pragma message(HUNTER_INFO(__cpp_init_captures))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2923:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_initializer_lists 200806L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2923 | # pragma message(HUNTER_INFO(__cpp_initializer_lists))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2927:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_lambdas 200907L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2927 | # pragma message(HUNTER_INFO(__cpp_lambdas))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2931:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_nsdmi 200809L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2931 | # pragma message(HUNTER_INFO(__cpp_nsdmi))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2935:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_range_based_for 200907__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2935 | # pragma message(HUNTER_INFO(__cpp_range_based_for))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2939:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_raw_strings 200710L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2939 | # pragma message(HUNTER_INFO(__cpp_raw_strings))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2943:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_ref_qualifiers 200710L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2943 | # pragma message(HUNTER_INFO(__cpp_ref_qualifiers))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2947:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_return_type_deduction 201304L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2947 | # pragma message(HUNTER_INFO(__cpp_return_type_deduction))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2951:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_rtti 199711L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2951 | # pragma message(HUNTER_INFO(__cpp_rtti))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2963:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_sized_deallocation 201309L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2963 | # pragma message(HUNTER_INFO(__cpp_sized_deallocation))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2967:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_static_assert 200410__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2967 | # pragma message(HUNTER_INFO(__cpp_static_assert))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2971:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_unicode_characters 200704L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2971 | # pragma message(HUNTER_INFO(__cpp_unicode_characters))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2975:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_unicode_literals 200710L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2975 | # pragma message(HUNTER_INFO(__cpp_unicode_literals))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2979:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_user_defined_literals 200809L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2979 | # pragma message(HUNTER_INFO(__cpp_user_defined_literals))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2983:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_variable_templates 201304L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2983 | # pragma message(HUNTER_INFO(__cpp_variable_templates))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:2987:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __cpp_variadic_templates 200704L__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         2987 | # pragma message(HUNTER_INFO(__cpp_variadic_templates))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:3003:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __gnu_linux__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         3003 | # pragma message(HUNTER_INFO(__gnu_linux__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:3059:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __linux 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         3059 | # pragma message(HUNTER_INFO(__linux))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:3063:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __linux__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         3063 | # pragma message(HUNTER_INFO(__linux__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:3067:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __llvm__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         3067 | # pragma message(HUNTER_INFO(__llvm__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:3139:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __pic__ 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         3139 | # pragma message(HUNTER_INFO(__pic__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:3143:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __pie__ 2__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         3143 | # pragma message(HUNTER_INFO(__pie__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:3171:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __private_extern__ extern__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         3171 | # pragma message(HUNTER_INFO(__private_extern__))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:3251:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __unix 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         3251 | # pragma message(HUNTER_INFO(__unix))
+              |          ^
+        /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/scripts/ShowPredefined.cpp:3255:10: warning: __HUNTER_MACRO_CHECK_BEGIN__#define __unix__ 1__HUNTER_MACRO_CHECK_END__ [-W#pragma-messages]
+         3255 | # pragma message(HUNTER_INFO(__unix__))
+              |          ^
+        276 warnings generated.
+        Linking CXX executable cmTC_9a7c1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a7c1.dir/link.txt --verbose=1
+        /usr/bin/clang++ -std=c++14  -rdynamic CMakeFiles/cmTC_9a7c1.dir/ShowPredefined.cpp.o -o cmTC_9a7c1
+        gmake[1]: Leaving directory '/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14/_3rdParty/Hunter/toolchain/_builds/_test/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...

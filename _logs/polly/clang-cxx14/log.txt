@@ -1,0 +1,1088 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/home/leshgun/leshgun/workspace/projects/lab07]> "which" "cmake"
+/usr/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/home/leshgun/leshgun/workspace/projects/lab07]> "cmake" "--version"
+cmake version 3.31.6
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `-H.`
+  `-B/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14`
+  `-GUnix Makefiles`
+  `-DCMAKE_TOOLCHAIN_FILE=/home/leshgun/leshgun/workspace/projects/lab07/tools/polly/clang-cxx14.cmake`
+]
+[/home/leshgun/leshgun/workspace/projects/lab07]> "cmake" "-H." "-B/home/leshgun/leshgun/workspace/projects/lab07/_builds/clang-cxx14" "-GUnix Makefiles" "-DCMAKE_TOOLCHAIN_FILE=/home/leshgun/leshgun/workspace/projects/lab07/tools/polly/clang-cxx14.cmake"
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/Hunter:34 (include)
+  cmake/HunterGate.cmake:540 (include)
+  CMakeLists.txt:4 (HunterGate)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_config_sha1.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/Hunter:34 (include)
+  cmake/HunterGate.cmake:540 (include)
+  CMakeLists.txt:4 (HunterGate)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_config_sha1.cmake:9 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/Hunter:34 (include)
+  cmake/HunterGate.cmake:540 (include)
+  CMakeLists.txt:4 (HunterGate)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_config_sha1.cmake:10 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/Hunter:34 (include)
+  cmake/HunterGate.cmake:540 (include)
+  CMakeLists.txt:4 (HunterGate)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_config_sha1.cmake:10 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/Hunter:34 (include)
+  cmake/HunterGate.cmake:540 (include)
+  CMakeLists.txt:4 (HunterGate)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_self.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:9 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/Hunter:34 (include)
+  cmake/HunterGate.cmake:540 (include)
+  CMakeLists.txt:4 (HunterGate)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_toolchain_sha1.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:10 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/Hunter:34 (include)
+  cmake/HunterGate.cmake:540 (include)
+  CMakeLists.txt:4 (HunterGate)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_toolchain_sha1.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:10 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/Hunter:34 (include)
+  cmake/HunterGate.cmake:540 (include)
+  CMakeLists.txt:4 (HunterGate)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_toolchain_sha1.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:10 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/Hunter:34 (include)
+  cmake/HunterGate.cmake:540 (include)
+  CMakeLists.txt:4 (HunterGate)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_set_config_location.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:13 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/Hunter:34 (include)
+  cmake/HunterGate.cmake:540 (include)
+  CMakeLists.txt:4 (HunterGate)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_self.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/Hunter:34 (include)
+  cmake/HunterGate.cmake:540 (include)
+  CMakeLists.txt:4 (HunterGate)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_private_data.cmake:12 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/Hunter:35 (include)
+  cmake/HunterGate.cmake:540 (include)
+  CMakeLists.txt:4 (HunterGate)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_self.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_initialize.cmake:4 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/Hunter:36 (include)
+  cmake/HunterGate.cmake:540 (include)
+  CMakeLists.txt:4 (HunterGate)
+
+
+-- [polly] Used toolchain: clang / c++14 support
+-- The C compiler identification is Clang 19.1.7
+-- The CXX compiler identification is Clang 19.1.7
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [hunter] Calculating Toolchain-SHA1
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /home/leshgun/.hunter
+-- [hunter] [ Hunter-ID: 5659b15 | Toolchain-ID: 4849616 | Config-ID: 8a1641b ]
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:4 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_config_sha1.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:4 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_config_sha1.cmake:9 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:4 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_config_sha1.cmake:10 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:4 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_config_sha1.cmake:10 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:4 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_self.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:9 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:4 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_toolchain_sha1.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:10 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:4 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_toolchain_sha1.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:10 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:4 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_toolchain_sha1.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:10 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:4 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_set_config_location.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:13 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:4 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_self.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:4 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_cache_run.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_config_sha1.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_cache_run.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_config_sha1.cmake:9 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_cache_run.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_config_sha1.cmake:10 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_cache_run.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_config_sha1.cmake:10 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_cache_run.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_self.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:9 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_cache_run.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_toolchain_sha1.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:10 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_cache_run.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_toolchain_sha1.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:10 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_cache_run.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_toolchain_sha1.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:10 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_cache_run.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_set_config_location.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake:13 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_cache_run.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_calculate_self.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_finalize.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_cache_run.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_create_cache_meta_directory.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_create_cache_meta_directory.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_load_from_cache.cmake:6 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:22 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_create_cache_meta_directory.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_save_to_cache.cmake:4 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:26 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_create_cache_meta_directory.cmake:5 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_save_to_cache.cmake:4 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:26 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_save_to_cache.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:26 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_save_to_cache.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:26 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+CMake Deprecation Warning at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_lock_directory.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_make_directory.cmake:7 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_save_to_cache.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:26 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:8 (include)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
+-- [hunter] GTEST_ROOT: /home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Install (ver.: 1.10.0)
+-- [hunter] Building GTest
+loading initial cache file /home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/cache.cmake
+loading initial cache file /home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/args.cmake
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- [polly] Used toolchain: clang / c++14 support
+-- The C compiler identification is Clang 19.1.7
+-- The CXX compiler identification is Clang 19.1.7
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake:1276 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.31/Modules/ExternalProject.cmake:3041 (_ep_add_download_command)
+  CMakeLists.txt:152 (ExternalProject_Add)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake:1276 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.31/Modules/ExternalProject.cmake:3041 (_ep_add_download_command)
+  CMakeLists.txt:152 (ExternalProject_Add)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Build
+[  6%] Creating directories for 'GTest-Release'
+[ 12%] Performing download step (download, verify and extract) for 'GTest-Release'
+-- verifying file...
+       file='/home/leshgun/.hunter/_Base/Download/GTest/1.10.0/9c89be7/release-1.10.0.tar.gz'
+-- File already exists and hash match (skip download):
+  file='/home/leshgun/.hunter/_Base/Download/GTest/1.10.0/9c89be7/release-1.10.0.tar.gz'
+  SHA1='9c89be7df9c5e8cb0bc20b3c4b39bf7e82686770'
+-- extracting...
+     src='/home/leshgun/.hunter/_Base/Download/GTest/1.10.0/9c89be7/release-1.10.0.tar.gz'
+     dst='/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 18%] No update step for 'GTest-Release'
+[ 25%] No patch step for 'GTest-Release'
+[ 31%] Performing configure step for 'GTest-Release'
+loading initial cache file /home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/cache.cmake
+loading initial cache file /home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/args.cmake
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- [polly] Used toolchain: clang / c++14 support
+-- The C compiler identification is Clang 19.1.7
+-- The CXX compiler identification is Clang 19.1.7
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Deprecation Warning at googlemock/CMakeLists.txt:45 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at googletest/CMakeLists.txt:56 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Warning (dev) at googletest/cmake/internal_utils.cmake:243 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  googletest/CMakeLists.txt:91 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PythonInterp: /usr/bin/python3 (found version "3.13.5")
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Build/GTest-Release-prefix/src/GTest-Release-build
+[ 37%] Performing build step for 'GTest-Release'
+[ 12%] Building CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 25%] Linking CXX static library ../lib/libgtest.a
+[ 25%] Built target gtest
+[ 37%] Building CXX object googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 50%] Building CXX object googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+In file included from /home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/src/gmock-all.cc:39:
+In file included from /home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock.h:59:
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-actions.h:455:3: error: definition of implicit copy constructor for 'PolymorphicAction<testing::internal::ReturnNullAction>' is deprecated because it has a user-declared copy assignment operator [-Werror,-Wdeprecated-copy]
+  455 |   GTEST_DISALLOW_ASSIGN_(PolymorphicAction);
+      |   ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/internal/gtest-port.h:682:8: note: expanded from macro 'GTEST_DISALLOW_ASSIGN_'
+  682 |   void operator=(type const &) = delete
+      |        ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-actions.h:1011:10: note: in implicit copy constructor for 'testing::PolymorphicAction<testing::internal::ReturnNullAction>' first required here
+ 1011 |   return MakePolymorphicAction(internal::ReturnNullAction());
+      |          ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-actions.h:455:3: error: definition of implicit copy constructor for 'PolymorphicAction<testing::internal::ReturnVoidAction>' is deprecated because it has a user-declared copy assignment operator [-Werror,-Wdeprecated-copy]
+  455 |   GTEST_DISALLOW_ASSIGN_(PolymorphicAction);
+      |   ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/internal/gtest-port.h:682:8: note: expanded from macro 'GTEST_DISALLOW_ASSIGN_'
+  682 |   void operator=(type const &) = delete
+      |        ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-actions.h:1016:10: note: in implicit copy constructor for 'testing::PolymorphicAction<testing::internal::ReturnVoidAction>' first required here
+ 1016 |   return MakePolymorphicAction(internal::ReturnVoidAction());
+      |          ^
+[ 62%] Linking CXX static library ../lib/libgtest_main.a
+In file included from /home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/src/gmock-all.cc:39:
+In file included from /home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock.h:61:
+In file included from /home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-function-mocker.h:39:
+In file included from /home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-generated-function-mockers.h:47:
+In file included from /home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-spec-builders.h:75:
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:1506:3: error: definition of implicit copy constructor for 'FloatingEqMatcher<double>' is deprecated because it has a user-declared copy assignment operator [-Werror,-Wdeprecated-copy]
+ 1506 |   GTEST_DISALLOW_ASSIGN_(FloatingEqMatcher);
+      |   ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/internal/gtest-port.h:682:8: note: expanded from macro 'GTEST_DISALLOW_ASSIGN_'
+  682 |   void operator=(type const &) = delete
+      |        ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:3632:10: note: in implicit copy constructor for 'testing::internal::FloatingEqMatcher<double>' first required here
+ 3632 |   return internal::FloatingEqMatcher<double>(rhs, false);
+      |          ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:1506:3: error: definition of implicit copy constructor for 'FloatingEqMatcher<float>' is deprecated because it has a user-declared copy assignment operator [-Werror,-Wdeprecated-copy]
+ 1506 |   GTEST_DISALLOW_ASSIGN_(FloatingEqMatcher);
+      |   ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/internal/gtest-port.h:682:8: note: expanded from macro 'GTEST_DISALLOW_ASSIGN_'
+  682 |   void operator=(type const &) = delete
+      |        ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:3660:10: note: in implicit copy constructor for 'testing::internal::FloatingEqMatcher<float>' first required here
+ 3660 |   return internal::FloatingEqMatcher<float>(rhs, false);
+      |          ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:721:3: error: definition of implicit copy constructor for 'StrEqualityMatcher<std::basic_string<char>>' is deprecated because it has a user-declared copy assignment operator [-Werror,-Wdeprecated-copy]
+  721 |   GTEST_DISALLOW_ASSIGN_(StrEqualityMatcher);
+      |   ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/internal/gtest-port.h:682:8: note: expanded from macro 'GTEST_DISALLOW_ASSIGN_'
+  682 |   void operator=(type const &) = delete
+      |        ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/gtest-matchers.h:454:7: note: in implicit copy constructor for 'testing::internal::StrEqualityMatcher<std::basic_string<char>>' first required here
+  454 | class PolymorphicMatcher {
+      |       ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:3813:10: note: in implicit move constructor for 'testing::PolymorphicMatcher<testing::internal::StrEqualityMatcher<std::basic_string<char>>>' first required here
+ 3813 |   return MakePolymorphicMatcher(
+      |          ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:778:3: error: definition of implicit copy constructor for 'HasSubstrMatcher<std::basic_string<char>>' is deprecated because it has a user-declared copy assignment operator [-Werror,-Wdeprecated-copy]
+  778 |   GTEST_DISALLOW_ASSIGN_(HasSubstrMatcher);
+      |   ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/internal/gtest-port.h:682:8: note: expanded from macro 'GTEST_DISALLOW_ASSIGN_'
+  682 |   void operator=(type const &) = delete
+      |        ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/gtest-matchers.h:454:7: note: in implicit copy constructor for 'testing::internal::HasSubstrMatcher<std::basic_string<char>>' first required here
+  454 | class PolymorphicMatcher {
+      |       ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:3842:10: note: in implicit move constructor for 'testing::PolymorphicMatcher<testing::internal::HasSubstrMatcher<std::basic_string<char>>>' first required here
+ 3842 |   return MakePolymorphicMatcher(
+      |          ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:835:3: error: definition of implicit copy constructor for 'StartsWithMatcher<std::basic_string<char>>' is deprecated because it has a user-declared copy assignment operator [-Werror,-Wdeprecated-copy]
+  835 |   GTEST_DISALLOW_ASSIGN_(StartsWithMatcher);
+      |   ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/internal/gtest-port.h:682:8: note: expanded from macro 'GTEST_DISALLOW_ASSIGN_'
+  682 |   void operator=(type const &) = delete
+      |        ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/gtest-matchers.h:454:7: note: in implicit copy constructor for 'testing::internal::StartsWithMatcher<std::basic_string<char>>' first required here
+  454 | class PolymorphicMatcher {
+      |       ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:3849:10: note: in implicit move constructor for 'testing::PolymorphicMatcher<testing::internal::StartsWithMatcher<std::basic_string<char>>>' first required here
+ 3849 |   return MakePolymorphicMatcher(
+      |          ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:891:3: error: definition of implicit copy constructor for 'EndsWithMatcher<std::basic_string<char>>' is deprecated because it has a user-declared copy assignment operator [-Werror,-Wdeprecated-copy]
+  891 |   GTEST_DISALLOW_ASSIGN_(EndsWithMatcher);
+      |   ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/internal/gtest-port.h:682:8: note: expanded from macro 'GTEST_DISALLOW_ASSIGN_'
+  682 |   void operator=(type const &) = delete
+      |        ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/gtest-matchers.h:454:7: note: in implicit copy constructor for 'testing::internal::EndsWithMatcher<std::basic_string<char>>' first required here
+  454 | class PolymorphicMatcher {
+      |       ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:3856:10: note: in implicit move constructor for 'testing::PolymorphicMatcher<testing::internal::EndsWithMatcher<std::basic_string<char>>>' first required here
+ 3856 |   return MakePolymorphicMatcher(internal::EndsWithMatcher<std::string>(suffix));
+      |          ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:721:3: error: definition of implicit copy constructor for 'StrEqualityMatcher<std::basic_string<wchar_t>>' is deprecated because it has a user-declared copy assignment operator [-Werror,-Wdeprecated-copy]
+  721 |   GTEST_DISALLOW_ASSIGN_(StrEqualityMatcher);
+      |   ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/internal/gtest-port.h:682:8: note: expanded from macro 'GTEST_DISALLOW_ASSIGN_'
+  682 |   void operator=(type const &) = delete
+      |        ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/gtest-matchers.h:454:7: note: in implicit copy constructor for 'testing::internal::StrEqualityMatcher<std::basic_string<wchar_t>>' first required here
+  454 | class PolymorphicMatcher {
+      |       ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:3865:10: note: in implicit move constructor for 'testing::PolymorphicMatcher<testing::internal::StrEqualityMatcher<std::basic_string<wchar_t>>>' first required here
+ 3865 |   return MakePolymorphicMatcher(
+      |          ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:778:3: error: definition of implicit copy constructor for 'HasSubstrMatcher<std::basic_string<wchar_t>>' is deprecated because it has a user-declared copy assignment operator [-Werror,-Wdeprecated-copy]
+  778 |   GTEST_DISALLOW_ASSIGN_(HasSubstrMatcher);
+      |   ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/internal/gtest-port.h:682:8: note: expanded from macro 'GTEST_DISALLOW_ASSIGN_'
+  682 |   void operator=(type const &) = delete
+      |        ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/gtest-matchers.h:454:7: note: in implicit copy constructor for 'testing::internal::HasSubstrMatcher<std::basic_string<wchar_t>>' first required here
+  454 | class PolymorphicMatcher {
+      |       ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:3894:10: note: in implicit move constructor for 'testing::PolymorphicMatcher<testing::internal::HasSubstrMatcher<std::basic_string<wchar_t>>>' first required here
+ 3894 |   return MakePolymorphicMatcher(
+      |          ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:835:3: error: definition of implicit copy constructor for 'StartsWithMatcher<std::basic_string<wchar_t>>' is deprecated because it has a user-declared copy assignment operator [-Werror,-Wdeprecated-copy]
+  835 |   GTEST_DISALLOW_ASSIGN_(StartsWithMatcher);
+      |   ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/internal/gtest-port.h:682:8: note: expanded from macro 'GTEST_DISALLOW_ASSIGN_'
+  682 |   void operator=(type const &) = delete
+      |        ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/gtest-matchers.h:454:7: note: in implicit copy constructor for 'testing::internal::StartsWithMatcher<std::basic_string<wchar_t>>' first required here
+  454 | class PolymorphicMatcher {
+      |       ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:3901:10: note: in implicit move constructor for 'testing::PolymorphicMatcher<testing::internal::StartsWithMatcher<std::basic_string<wchar_t>>>' first required here
+ 3901 |   return MakePolymorphicMatcher(
+      |          ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:891:3: error: definition of implicit copy constructor for 'EndsWithMatcher<std::basic_string<wchar_t>>' is deprecated because it has a user-declared copy assignment operator [-Werror,-Wdeprecated-copy]
+  891 |   GTEST_DISALLOW_ASSIGN_(EndsWithMatcher);
+      |   ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/internal/gtest-port.h:682:8: note: expanded from macro 'GTEST_DISALLOW_ASSIGN_'
+  682 |   void operator=(type const &) = delete
+      |        ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googletest/include/gtest/gtest-matchers.h:454:7: note: in implicit copy constructor for 'testing::internal::EndsWithMatcher<std::basic_string<wchar_t>>' first required here
+  454 | class PolymorphicMatcher {
+      |       ^
+/home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest/Source/googlemock/include/gmock/gmock-matchers.h:3908:10: note: in implicit move constructor for 'testing::PolymorphicMatcher<testing::internal::EndsWithMatcher<std::basic_string<wchar_t>>>' first required here
+ 3908 |   return MakePolymorphicMatcher(
+      |          ^
+[ 62%] Built target gtest_main
+12 errors generated.
+gmake[5]: *** [googlemock/CMakeFiles/gmock.dir/build.make:79: googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o] Error 1
+gmake[4]: *** [CMakeFiles/Makefile2:134: googlemock/CMakeFiles/gmock.dir/all] Error 2
+gmake[3]: *** [Makefile:146: all] Error 2
+gmake[2]: *** [CMakeFiles/GTest-Release.dir/build.make:86: GTest-Release-prefix/src/GTest-Release-stamp/GTest-Release-build] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:90: CMakeFiles/GTest-Release.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2
+
+[hunter ** FATAL ERROR **] Build step failed (dir: /home/leshgun/.hunter/_Base/5659b15/4849616/8a1641b/Build/GTest
+[hunter ** FATAL ERROR **] [Directory:/home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest]
+
+------------------------------ ERROR -----------------------------
+    https://hunter.readthedocs.io/en/latest/reference/errors/error.external.build.failed.html
+------------------------------------------------------------------
+
+CMake Error at /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_error_page.cmake:12 (message):
+Call Stack (most recent call first):
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_fatal_error.cmake:20 (hunter_error_page)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_download.cmake:623 (hunter_fatal_error)
+-- Configuring incomplete, errors occurred!
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/projects/GTest/hunter.cmake:291 (hunter_download)
+  /home/leshgun/.hunter/_Base/Download/Hunter/0.23.251/5659b15/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:17 (hunter_add_package)
+
+
