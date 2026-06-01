@@ -5,7 +5,7 @@ RUN apt update && apt install -yy gcc g++ cmake
 COPY . /print
 WORKDIR /print
 
-RUN cmake -H. -B_build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=_install
+RUN cmake -H. -B_build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=_install -DCONAN_DISABLE_WERROR=ON -DHUNTER_DISABLE_WERROR=ON
 RUN cmake --build _build
 RUN cmake --build _build --target install
 
