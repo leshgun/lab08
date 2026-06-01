@@ -22,3 +22,4 @@ jobs:
         mkdir -p logs
         echo -e "test_ci_1\ntest_ci_2\ntest_ci_3" | docker run -i -v "$(pwd)/logs/:/home/logs/" logger
         cat logs/log.txt
+# Trigger Actions
