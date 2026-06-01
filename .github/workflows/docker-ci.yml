@@ -14,8 +14,11 @@ jobs:
     - name: Check out repository
       uses: actions/checkout@v4
 
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v3
-
     - name: Build Docker Image
       run: docker build -t logger .
+
+    - name: Test Docker Container Run
+      run: |
+        mkdir -p logs
+        echo -e "test_ci_1\ntest_ci_2\ntest_ci_3" | docker run -i -v "$(pwd)/logs/:/home/logs/" logger
+        cat logs/log.txt
